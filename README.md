@@ -16,7 +16,7 @@ Execute or schedule execution of the code generated from ChatGPT in a nice UI on
 
 ## Development status
 
-The development of RunGPT started 10 month ago right after the release of ChatGPT and thne a lot of similar projects had show up. The project is not maintained anymore from then but if someone want to contribute he is welcome :-)
+The development of RunGPT started around 02/23 sometimes after the release of ChatGPT and then a lot of similar projects showed up (Auto-GPT, GPT Engineer...). The project is not maintained anymore since 06/23 but if someone want to contribute he is welcome :-)
 
 ## Features
 
