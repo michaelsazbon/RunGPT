@@ -18,6 +18,10 @@ Execute or schedule execution of the code generated from ChatGPT in a nice UI on
 
 The development of RunGPT started around 02/23 sometimes after the release of ChatGPT and then a lot of similar projects showed up (Auto-GPT, GPT Engineer...). The project is not maintained anymore since 06/23 but if someone want to contribute he is welcome :-)
 
+## Initial Idea
+
+The idea behind this project is to allow a basic developper to create automation script with only a single prompt. The automation script can take parameters in input if they are provided like {parameter1} and set at each execution (or with a default value). Then the automation can be runed manually or scheduled to run every x minutes...
+
 ## Features
 
 - Use a single prompt to define a short description of the program you need in a Markdown editor
