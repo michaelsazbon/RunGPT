@@ -1,0 +1,174 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+ @import "~bootstrap-icons/font/bootstrap-icons.css";
+
+body {
+  position: relative;
+  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+
+  background: linear-gradient(
+    200.96deg,
+    #fedc2a -29.09%,
+    #dd5789 51.77%,
+    #7a2c9e 129.35%
+  );
+  font-family: sans-serif;
+  /* overflow-y: hidden; */
+
+}
+
+.app {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+
+:root * { 
+
+  --bs-body-font-size: 0.8rem;
+  --bs-accordion-border-width: 0;
+ 
+}
+
+.gpt-tabs .nav-link {
+  color: var(--bs-white);
+  font-weight: 500;
+}
+
+.gpt-tabs .nav-link.active {
+  border-bottom: 2px solid var(--bs-nav-pills-link-active-bg);
+  background-color: transparent;
+  border-radius: 0.5rem 0.5rem 0 0;
+  font-weight: 600;
+  color: var(--bs-primary);
+}
+
+.btn1 {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  appearance: none;
+  font-size: 1.3rem;
+  box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
+    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+  transition: all ease-in 0.1s;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+/* li {
+  list-style: none;
+} */
+
+a {
+  text-decoration: none;
+  height: fit-content;
+  width: fit-content;
+  margin: 10px;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.Hello {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+
+
+
+*:focus-visible {
+  outline: none !important;
+}
+
+.maxwidth {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.btn-copy-code {
+  right: 10px;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+.top-navigation {
+  max-height: 10vh;
+}
+
+.code-editor {
+  /* max-height: 400px;
+  overflow-y: auto; */
+}
+
+.ReactModal__Overlay {
+   z-index: 9; 
+   background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.ReactModal__Content {
+  position: relative !important;
+  inset: 0 !important;
+  width: 400px;
+  height: 400px;
+}
+
+.ReactModal__Overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-card {
+  object-fit: cover;
+  height: 150px;
+}
+
+.cardwidth {
+  width: 22rem;
+}
+
+.cardwidth2 {
+  min-width: 18rem;
+
+}
+
+.homecardheight {
+  height: 2rem;
+}
+
+.run-history {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.edit-task-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.time-schedule {
+  width: 50px;
+}
+
+.md-editor-prompt {
+  height: 400px;
+}
+
+.editor-container {
+ 
+}
